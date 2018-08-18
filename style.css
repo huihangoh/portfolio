@@ -1,0 +1,61 @@
+body {
+    font-family: georgia;
+}
+
+header {
+    background-color: lightgrey;
+    font-family: cambria;
+    letter-spacing: 2px;
+    text-align: center;
+    display: block;
+}
+
+.profile {
+    width: 90%;
+    margin: 25px auto;
+    padding: 10px auto;
+}
+
+.details {
+    width: 90%;
+    margin: 25px auto;
+    padding: 10px auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    line-height: 80%;
+}
+
+#photo {
+    background-color: grey;
+    border: 1px solid black;
+    height: 120px;
+    width: 25%;
+    padding: 10px;
+    display: inline-block;
+}
+
+#bio {
+    border: 1px solid lightgrey;
+    height: 120px;
+    width: 70%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image {
+    transform: rotate(270deg);
+    vertical-align: middle;
+}
+
+#experience, #education, #hobbies {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0px 10px;
+    display: block;
+}
