@@ -1,5 +1,7 @@
 body {
     font-family: georgia;
+    background-image: url("background.jpg");
+    background-position: fixed;
 }
 
 header {
@@ -38,6 +40,7 @@ p {
 }
 
 #photo {
+    background-color: white;
     border: 1px solid lightgrey;
     height: 120px;
     width: 25%;
@@ -46,6 +49,7 @@ p {
 }
 
 #bio {
+    background-color: white;
     border: 1px solid lightgrey;
     height: 120px;
     width: 70%;
@@ -59,6 +63,7 @@ p {
 }
 
 #experience, #education, #hobbies {
+    background-color: white;
     border: 1px solid lightgrey;
     padding: 10px;
     margin: 10px 0px 10px;
